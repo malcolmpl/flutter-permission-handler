@@ -69,7 +69,7 @@ namespace
     void IsLocationServiceEnabled(std::unique_ptr<MethodResult<>> result);
     winrt::fire_and_forget IsBluetoothServiceEnabled(std::unique_ptr<MethodResult<>> result);
 
-    winrt::Windows::System : winrt::Windows::Devices::Geolocation::Geolocator geolocator;
+    winrt::Windows::Devices::Geolocation::Geolocator geolocator;
   };
 
   // static
